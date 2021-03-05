@@ -19,9 +19,9 @@ class HomeDetailPage extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.transparent,
         ),
-        backgroundColor : MyTheme.creamColor,
+        backgroundColor : context.canvasColor,
         bottomNavigationBar: Container(
-          color: Colors.white,
+          color: context.cardColor,
           child: ButtonBar(
             alignment: MainAxisAlignment.spaceBetween,
             buttonPadding: EdgeInsets.zero,
@@ -31,7 +31,7 @@ class HomeDetailPage extends StatelessWidget {
                 onPressed: (){},
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all(
-                    MyTheme.darkBluishColor,
+                    context.theme.buttonColor,
                   ),
                   shape: MaterialStateProperty.all(
                     StadiumBorder(),
@@ -54,14 +54,14 @@ class HomeDetailPage extends StatelessWidget {
                   arcType: VxArcType.CONVEY,
                   edge: VxEdge.TOP,
                   child: Container(
-                    color: Colors.white,
+                    color: context.cardColor,
                     width: context.screenWidth,
                     child: Column(
                       children: [
-                        catalog.name.text.xl4.color(MyTheme.darkBluishColor).bold.make(),
-                        catalog.desc.text.textStyle(context.captionStyle).xl.make(),
+                        catalog.name.text.xl4.color(context.accentColor).bold.make(),
+                        catalog.desc.text.textStyle(context.captionStyle).color(context.accentColor).xl.make(),
                         10.heightBox,
-                        "Released 2020, October 23, 164g, 7.4mm thickness, iOS 14.1, up to iOS 14.4, 64GB/128GB/256GB, storage, no card slot, Glass front (Gorilla Glass), glass back (Gorilla Glass), aluminum frame, Single SIM (Nano-SIM and/or eSIM) or Dual SIM (Nano-SIM, dual stand-by) - for China, Apple Pay (Visa, MasterCard, AMEX certified), Super Retina XDR OLED, HDR10, 625 nits (typ), 1200 nits (peak), 64GB 4GB RAM, 128GB 4GB RAM, 256GB 4GB RAM".text.textStyle(context.captionStyle).make().p16(),
+                        "Released 2020, October 23, 164g, 7.4mm thickness, iOS 14.1, up to iOS 14.4, 64GB/128GB/256GB, storage, no card slot, Glass front (Gorilla Glass), glass back (Gorilla Glass), aluminum frame, Single SIM (Nano-SIM and/or eSIM) or Dual SIM (Nano-SIM, dual stand-by) - for China, Apple Pay (Visa, MasterCard, AMEX certified), Super Retina XDR OLED, HDR10, 625 nits (typ), 1200 nits (peak), 64GB 4GB RAM, 128GB 4GB RAM, 256GB 4GB RAM".text.textStyle(context.captionStyle).color(context.accentColor).make().p16(),
                       ],
                     ).py64(),
                   ),

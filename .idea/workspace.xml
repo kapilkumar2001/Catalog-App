@@ -19,8 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b743a6-706d-458d-b814-260942cb72c0" name="Default Changelist" comment="added Details Page">
-      <change afterPath="$PROJECT_DIR$/lib/pages/cart_page.dart" afterDir="false" />
+    <list default="true" id="06b743a6-706d-458d-b814-260942cb72c0" name="Default Changelist" comment="Added cart page">
+      <change afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/2b94c040551581e571c6ae92eaca6611/.filecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/2b94c040551581e571c6ae92eaca6611/app.dill" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/2b94c040551581e571c6ae92eaca6611/debug_android_application.stamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/2b94c040551581e571c6ae92eaca6611/flutter_assets.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/2b94c040551581e571c6ae92eaca6611/gen_localizations.stamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/2b94c040551581e571c6ae92eaca6611/kernel_snapshot.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/2b94c040551581e571c6ae92eaca6611/kernel_snapshot.stamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/2b94c040551581e571c6ae92eaca6611/outputs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/vBzzkAky7AGGZtXn1GGtdNRATXk=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/vBzzkAky7AGGZtXn1GGtdNRATXk=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/oS+jXQa5JkWCWBDmUMB77kn+u_8=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/tN_77+TPu0FfBTdZSGpcJgdbTw0=" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
@@ -32,9 +44,12 @@
       <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/catalog_header.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/catalog_header.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/catalog_image.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/catalog_image.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/catalog_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/catalog_list.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/home_detail_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home_detail_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/routes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/routes.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/loginpage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/loginpage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/themes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/themes.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614946631998</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added cart page">
+      <created>1614963056279</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614963056279</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,25 +130,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added Details Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Details Page" />
+    <MESSAGE value="Added cart page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added cart page" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1320" height="2" key="GridCell.Tab.0.bottom" timestamp="1614962504004">
+    <state width="1320" height="134" key="GridCell.Tab.0.bottom" timestamp="1614970307217">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="2" key="GridCell.Tab.0.bottom/0.27.1366.692@0.27.1366.692" timestamp="1614962504004" />
-    <state width="1320" height="2" key="GridCell.Tab.0.center" timestamp="1614962504004">
+    <state width="1320" height="134" key="GridCell.Tab.0.bottom/0.27.1366.692@0.27.1366.692" timestamp="1614970307217" />
+    <state width="1320" height="134" key="GridCell.Tab.0.center" timestamp="1614970307217">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="2" key="GridCell.Tab.0.center/0.27.1366.692@0.27.1366.692" timestamp="1614962504004" />
-    <state width="1320" height="2" key="GridCell.Tab.0.left" timestamp="1614962504003">
+    <state width="1320" height="134" key="GridCell.Tab.0.center/0.27.1366.692@0.27.1366.692" timestamp="1614970307217" />
+    <state width="1320" height="134" key="GridCell.Tab.0.left" timestamp="1614970307216">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="2" key="GridCell.Tab.0.left/0.27.1366.692@0.27.1366.692" timestamp="1614962504003" />
-    <state width="1320" height="2" key="GridCell.Tab.0.right" timestamp="1614962504004">
+    <state width="1320" height="134" key="GridCell.Tab.0.left/0.27.1366.692@0.27.1366.692" timestamp="1614970307216" />
+    <state width="1320" height="134" key="GridCell.Tab.0.right" timestamp="1614970307217">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="2" key="GridCell.Tab.0.right/0.27.1366.692@0.27.1366.692" timestamp="1614962504004" />
+    <state width="1320" height="134" key="GridCell.Tab.0.right/0.27.1366.692@0.27.1366.692" timestamp="1614970307217" />
     <state x="172" y="27" width="1012" height="692" key="SettingsEditor" timestamp="1614244137769">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
