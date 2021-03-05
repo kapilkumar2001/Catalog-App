@@ -1,5 +1,7 @@
+import 'package:catalog_app2/pages/cart_page.dart';
 import 'package:catalog_app2/pages/catalog_header.dart';
 import 'package:catalog_app2/pages/catalog_list.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter/services.dart';
@@ -40,6 +42,7 @@ class MyApp extends StatelessWidget {
         MyRoutes.listRoute : (context) => ListPage(),
         MyRoutes.loginRoute : (context) => loginpage(),
         MyRoutes.gridRoute : (context) => GridPage(),
+        MyRoutes.cartRoute : (context) => CartPage(),
       },
     );
   }
@@ -73,6 +76,11 @@ class _ListPageState extends State<ListPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: MyTheme.creamColor,
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => Navigator.pushNamed(context, MyRoutes.cartRoute),
+        backgroundColor: MyTheme.darkBluishColor,
+        child: Icon(CupertinoIcons.cart),
+      ),
       body: SafeArea(
         child: Container(
           padding: Vx.m32,

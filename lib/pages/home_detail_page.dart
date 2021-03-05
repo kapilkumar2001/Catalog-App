@@ -16,7 +16,9 @@ class HomeDetailPage extends StatelessWidget {
     return SafeArea(
       bottom: false,
       child: Scaffold(
-        appBar: AppBar(),
+        appBar: AppBar(
+          backgroundColor: Colors.transparent,
+        ),
         backgroundColor : MyTheme.creamColor,
         bottomNavigationBar: Container(
           color: Colors.white,
@@ -35,8 +37,8 @@ class HomeDetailPage extends StatelessWidget {
                     StadiumBorder(),
                   ),
                 ),
-                child: "Buy".text.make(),
-              ).wh(100,50)
+                child: "Add to Cart".text.make(),
+              ).wh(120,50)
             ],
           ).p32(),
         ),
@@ -59,6 +61,7 @@ class HomeDetailPage extends StatelessWidget {
                         catalog.name.text.xl4.color(MyTheme.darkBluishColor).bold.make(),
                         catalog.desc.text.textStyle(context.captionStyle).xl.make(),
                         10.heightBox,
+                        "Released 2020, October 23, 164g, 7.4mm thickness, iOS 14.1, up to iOS 14.4, 64GB/128GB/256GB, storage, no card slot, Glass front (Gorilla Glass), glass back (Gorilla Glass), aluminum frame, Single SIM (Nano-SIM and/or eSIM) or Dual SIM (Nano-SIM, dual stand-by) - for China, Apple Pay (Visa, MasterCard, AMEX certified), Super Retina XDR OLED, HDR10, 625 nits (typ), 1200 nits (peak), 64GB 4GB RAM, 128GB 4GB RAM, 256GB 4GB RAM".text.textStyle(context.captionStyle).make().p16(),
                       ],
                     ).py64(),
                   ),
