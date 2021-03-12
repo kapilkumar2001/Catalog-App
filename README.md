@@ -1,4 +1,4 @@
-# Catalog App UI
+# Catalog App
 
 A Catalog Application. 
 
