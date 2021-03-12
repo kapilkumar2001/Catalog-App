@@ -1,21 +1,28 @@
 import 'package:flutter/cupertino.dart';
 
 class CatalogModel{
-  static List<Item> items = [
-    Item(
-      id: 1,
-      name : "iphone 12 pro",
-      desc : "Apple iphone 12th generation",
-      price: 999,
-      color: "#33505a",
-      image : "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-black-select-2020?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1604343702000",
-    )];
+
+  static final catModel = CatalogModel._internal();
+
+  CatalogModel._internal();
+  factory CatalogModel() => catModel;
+
+   static List<Item> items// = [
+  //   Item(
+  //     id: 1,
+  //     name : "iphone 12 pro",
+  //     desc : "Apple iphone 12th generation",
+  //     price: 999,
+  //     color: "#33505a",
+  //     image : "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-black-select-2020?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1604343702000",
+  //   )]
+   ;
 
 
-  static Item getById(int id) =>
+  Item getById(int id) =>
     items.firstWhere((element) => element.id == id , orElse: null);
 
-  static Item getByPosition(int pos) => items[pos];
+  Item getByPosition(int pos) => items[pos];
 }
 
 class Item{
