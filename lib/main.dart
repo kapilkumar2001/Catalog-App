@@ -1,3 +1,4 @@
+import 'package:catalog_app2/core/store.dart';
 import 'package:catalog_app2/pages/cart_page.dart';
 import 'package:catalog_app2/pages/catalog_header.dart';
 import 'package:catalog_app2/pages/catalog_list.dart';
@@ -25,7 +26,11 @@ import 'pages/loginpage.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(VxState(
+    store: MyStore(),
+      child: MyApp(),
+  )
+  );
 }
 
 class MyApp extends StatelessWidget {

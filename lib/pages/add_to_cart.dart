@@ -1,36 +1,40 @@
+import 'package:catalog_app2/core/store.dart';
 import 'package:catalog_app2/models/cart.dart';
 import 'package:catalog_app2/models/catalog.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
 
-class AddToCart extends StatefulWidget {
+class AddToCart extends StatelessWidget {
   final Item catalog;
-  const AddToCart( {
+  AddToCart( {
     Key key, this.catalog,
   }) : super(key: key);
 
-  @override
-  _AddToCartState createState() => _AddToCartState();
-}
-
-class _AddToCartState extends State<AddToCart> {
-
   //bool isInCart = false;
-  final _cart = CartModel();
+  // final _cart = CartModel();
 
   @override
   Widget build(BuildContext context) {
-    bool isInCart = _cart.items.contains(widget.catalog)?? false;
+
+    VxState.listen(context, to: [AddMutation, RemoveMutation]);
+
+    final CartModel _cart = (VxState.store as MyStore).cart;
+  //  final CatalogModel _catalog = (VxState.store as MyStore).catalog;
+
+    bool isInCart = _cart.items.contains(catalog)?? false;
+
     return ElevatedButton(
       onPressed: (){
         if(!isInCart) {
-          isInCart = isInCart.toggle();
-          final _catalog = CatalogModel();
+         // isInCart = isInCart.toggle();
+         // final _catalog = CatalogModel();
 
-          _cart.catalog = _catalog;
-          _cart.add(widget.catalog);
-          setState(() {});
+         // _cart.catalog = _catalog;
+
+          AddMutation(catalog);
+          // _cart.add(catalog);
+          // setState(() {});
         }
       },
       style: ButtonStyle(
