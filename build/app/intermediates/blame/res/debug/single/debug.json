@@ -1,19 +1,19 @@
 [
     {
-        "merged": "/home/kapil/AndroidStudioProjects/catalog_app/build/app/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
-        "source": "/home/kapil/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/drawable-v21/notification_action_background.xml"
-    },
-    {
-        "merged": "/home/kapil/AndroidStudioProjects/catalog_app/build/app/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
-        "source": "/home/kapil/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "/home/kapil/AndroidStudioProjects/catalog_app/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/kapil/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/home/kapil/AndroidStudioProjects/catalog_app/build/app/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
         "source": "/home/kapil/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
     },
     {
-        "merged": "/home/kapil/AndroidStudioProjects/catalog_app/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/kapil/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+        "merged": "/home/kapil/AndroidStudioProjects/catalog_app/build/app/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
+        "source": "/home/kapil/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/kapil/AndroidStudioProjects/catalog_app/build/app/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
+        "source": "/home/kapil/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/drawable-v21/notification_action_background.xml"
     },
     {
         "merged": "/home/kapil/AndroidStudioProjects/catalog_app/build/app/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
@@ -54,6 +54,10 @@
     {
         "merged": "/home/kapil/AndroidStudioProjects/catalog_app/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "/home/kapil/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/kapil/AndroidStudioProjects/catalog_app/build/app/intermediates/res/merged/debug/drawable-v21_launch_background.xml.flat",
+        "source": "/home/kapil/AndroidStudioProjects/catalog_app/android/app/src/main/res/drawable-v21/launch_background.xml"
     },
     {
         "merged": "/home/kapil/AndroidStudioProjects/catalog_app/build/app/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
